@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MediaObserver, MediaChange } from '@angular/flex-layout';
+
 @Component({
   selector: 'app-offices',
   templateUrl: './offices.component.html',
